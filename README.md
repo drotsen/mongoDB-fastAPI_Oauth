@@ -1,4 +1,4 @@
-# FirstAPI-MongoDB
+git# FirstAPI-MongoDB
 # Some GIT commands
 set GIT_SSL_NO_VERIFY=true  or git config --global http.sslverify "false" 
 update: git config http.sslCAinfo "/path/to/ca-bundle.crt"
@@ -15,6 +15,16 @@ git push origin xxx
 
 git remote add origin https://github.com/drotsen/MongoDB-REST_Api.git
 git push -u origin main
+
+echo "# mongoDB-fastAPI_Oauth" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/drotsen/mongoDB-fastAPI_Oauth.git
+git push -u origin main
+
+
 # Setting virtual envoirment
 python -m venv venv
 venv\Scripts\activate.bat
